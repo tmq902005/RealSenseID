@@ -170,6 +170,7 @@ namespace std {
 %include "arrays_java.i"
 
 // API defined in RealSenseID
+%include "@RealSenseID_HEADERS_FOLDER@/FaceprintsDefines.h"
 %include "@RealSenseID_HEADERS_FOLDER@/AndroidSerialConfig.h"
 %include "@RealSenseID_HEADERS_FOLDER@/DeviceConfig.h"
 %include "@RealSenseID_HEADERS_FOLDER@/Status.h"
